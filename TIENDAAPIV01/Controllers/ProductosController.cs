@@ -49,7 +49,7 @@ namespace TIENDAAPIV01.Controllers
 
 
 
-            return Ok(productosRango);
+            return Ok(productosRango );
         }
 
         [Route("GetProductoByIdCategoria/{IdCategoria}")]
